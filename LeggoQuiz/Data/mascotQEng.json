@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "category": "Techno",
+            "question": "How do cloud storage services (such as OneDrive, Adobe Creative Cloud, etc.) affect the amount of CO2",
+            "correctAnswer":"Large amounts of energy are used for data centers, causing high CO2 emissions.",
+            "incorrectAnswers":["Reducing CO2 emissions by replacing the production of physical storage devices.", "Both answers", "None of them."]
+        },
+        {
+            "category": "Techo",
+            "question": "Are electric vehicles a **comprehensive solution** for reducing CO2 emissions from transportation?",
+            "correctAnswer":"No, because the production process of electric vehicles is not yet optimized.",
+            "incorrectAnswers":["Yes, because driving electric vehicles does not emit CO2 ", "Both answers", "Both answers a and b."]
+        },
+        {
+            "category": "Eco",
+            "question": "What is the correct order of the 3R model for environmentally sustainable action?",
+            "correctAnswer":"Reduce – Reuse – Recycle",
+            "incorrectAnswers":["Reduce – Recycle - Reuse", "Reuse - Reduce - Recycle", "Reuse - Recycle – Reduce"]
+        },
+        {
+            "category": "Eco",
+            "question": "Why does red meat consumption contribute to Carbon Dioxide (CO2) emissions? ",
+            "correctAnswer":"The production and processing of red meat produces large amounts of greenhouse gases.",
+            "incorrectAnswers":["Red meat contains a lot of fat, which increases CO2 emission during digestion.", "The production and processing of red meat produces large amounts of greenhouse gases.", "Red meat contributes to the decline of forests, reducing their ability to absorb CO2 from the air."]
+        },
+        {
+            "category": "Eco",
+            "question": "Why does red meat consumption contribute to Carbon Dioxide (CO2) emissions? ",
+            "correctAnswer":"The production and processing of red meat produces large amounts of greenhouse gases.",
+            "incorrectAnswers":["Red meat contains a lot of fat, which increases CO2 emission during digestion.", "The production and processing of red meat produces large amounts of greenhouse gases.", "Red meat contributes to the decline of forests, reducing their ability to absorb CO2 from the air."]
+        }
+    ]
+}

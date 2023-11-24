@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var quizManager = QuizManager()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            VStack(spacing: 40) {
+                VStack(spacing: 20){
+                    Text("Vuot Chuong Ngai Vat")
+                        .lilacTitle()
+                    
+                    Text("Are you ready?")
+                        .foregroundColor(Color("AccentColor"))
+                    
+                    NavigationLink{
+                        TriviaView()
+                            .environmentObject(quizManager)
+                    } label: {
+                        PrimaryButton(text: "Next")
+                    }
+                }
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            .background(.white)
         }
-        .padding()
+        .navigationViewStyle(StackNavigationViewStyle())
+        
     }
 }
 

@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import SwiftUI
+
+extension Text{
+    func lilacTitle() -> some View{
+        self.font(.largeTitle)
+            .fontWeight(.heavy)
+            .foregroundColor(Color("AccentColor"))
+    }
+}

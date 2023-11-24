@@ -14,6 +14,37 @@
 		787AC6902B0F71E8001A1CBC /* LeggoQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC68F2B0F71E8001A1CBC /* LeggoQuizTests.swift */; };
 		787AC69A2B0F71E8001A1CBC /* LeggoQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6992B0F71E8001A1CBC /* LeggoQuizUITests.swift */; };
 		787AC69C2B0F71E8001A1CBC /* LeggoQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC69B2B0F71E8001A1CBC /* LeggoQuizUITestsLaunchTests.swift */; };
+		787AC6AA2B0F729F001A1CBC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6A92B0F729F001A1CBC /* PrimaryButton.swift */; };
+		787AC6AD2B0F7572001A1CBC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6AC2B0F7572001A1CBC /* Extensions.swift */; };
+		787AC6AF2B0F75F3001A1CBC /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6AE2B0F75F3001A1CBC /* QuestionView.swift */; };
+		787AC6B12B0F768B001A1CBC /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6B02B0F768B001A1CBC /* ProgressBar.swift */; };
+		787AC6B42B0F79C6001A1CBC /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6B32B0F79C6001A1CBC /* Answer.swift */; };
+		787AC6B62B0F7A15001A1CBC /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6B52B0F7A15001A1CBC /* AnswerRow.swift */; };
+		787AC6B82B0F7CDC001A1CBC /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6B72B0F7CDC001A1CBC /* TriviaView.swift */; };
+		787AC6BA2B0F7E06001A1CBC /* MascotQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6B92B0F7E05001A1CBC /* MascotQuiz.swift */; };
+		787AC6BC2B0F843E001A1CBC /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6BB2B0F843E001A1CBC /* TriviaManager.swift */; };
+		787AC6BE2B0F8B83001A1CBC /* mascotQEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6BD2B0F8B83001A1CBC /* mascotQEng.json */; };
+		787AC6C12B0FDB0E001A1CBC /* eventQEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6C02B0FDB0E001A1CBC /* eventQEng.json */; };
+		787AC6C32B0FDEF4001A1CBC /* EventQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6C22B0FDEF4001A1CBC /* EventQuiz.swift */; };
+		787AC6C52B0FE829001A1CBC /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6C42B0FE829001A1CBC /* QuizManager.swift */; };
+		787AC6C72B0FFF7B001A1CBC /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6C62B0FFF7B001A1CBC /* TestView.swift */; };
+		787AC6C92B100491001A1CBC /* MascotLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6C82B100491001A1CBC /* MascotLevel.swift */; };
+		787AC6D02B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */; };
+		787AC6D12B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */; };
+		787AC6D22B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */; };
+		787AC6D32B105818001A1CBC /* Rocgrotesk-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */; };
+		787AC6D42B105818001A1CBC /* Rocgrotesk-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */; };
+		787AC6D52B105818001A1CBC /* Rocgrotesk-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */; };
+		787AC6D62B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */; };
+		787AC6D72B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */; };
+		787AC6D82B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */; };
+		787AC6D92B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */; };
+		787AC6DA2B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */; };
+		787AC6DB2B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */; };
+		787AC6DC2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */; };
+		787AC6DD2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */; };
+		787AC6DE2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */; };
+		787AC6E02B1058BF001A1CBC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6DF2B105865001A1CBC /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +75,27 @@
 		787AC6952B0F71E8001A1CBC /* LeggoQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeggoQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787AC6992B0F71E8001A1CBC /* LeggoQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeggoQuizUITests.swift; sourceTree = "<group>"; };
 		787AC69B2B0F71E8001A1CBC /* LeggoQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeggoQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		787AC6A92B0F729F001A1CBC /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		787AC6AC2B0F7572001A1CBC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		787AC6AE2B0F75F3001A1CBC /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		787AC6B02B0F768B001A1CBC /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		787AC6B32B0F79C6001A1CBC /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		787AC6B52B0F7A15001A1CBC /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		787AC6B72B0F7CDC001A1CBC /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
+		787AC6B92B0F7E05001A1CBC /* MascotQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotQuiz.swift; sourceTree = "<group>"; };
+		787AC6BB2B0F843E001A1CBC /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
+		787AC6BD2B0F8B83001A1CBC /* mascotQEng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mascotQEng.json; sourceTree = "<group>"; };
+		787AC6C02B0FDB0E001A1CBC /* eventQEng.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = eventQEng.json; sourceTree = "<group>"; };
+		787AC6C22B0FDEF4001A1CBC /* EventQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventQuiz.swift; sourceTree = "<group>"; };
+		787AC6C42B0FE829001A1CBC /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		787AC6C62B0FFF7B001A1CBC /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		787AC6C82B100491001A1CBC /* MascotLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotLevel.swift; sourceTree = "<group>"; };
+		787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-medium.otf"; sourceTree = "<group>"; };
+		787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-light.otf"; sourceTree = "<group>"; };
+		787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-regular.otf"; sourceTree = "<group>"; };
+		787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-extralight.otf"; sourceTree = "<group>"; };
+		787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-thin.otf"; sourceTree = "<group>"; };
+		787AC6DF2B105865001A1CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +146,16 @@
 		787AC67D2B0F71E6001A1CBC /* LeggoQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				787AC6DF2B105865001A1CBC /* Info.plist */,
+				787AC6CA2B1057DC001A1CBC /* fonts */,
+				787AC6BF2B0FDAF8001A1CBC /* Data */,
+				787AC6B22B0F79B5001A1CBC /* Models */,
+				787AC6AB2B0F747F001A1CBC /* Views */,
+				787AC6A82B0F7286001A1CBC /* Components */,
 				787AC67E2B0F71E6001A1CBC /* LeggoQuizApp.swift */,
-				787AC6802B0F71E6001A1CBC /* ContentView.swift */,
 				787AC6822B0F71E8001A1CBC /* Assets.xcassets */,
 				787AC6842B0F71E8001A1CBC /* Preview Content */,
+				787AC6AC2B0F7572001A1CBC /* Extensions.swift */,
 			);
 			path = LeggoQuiz;
 			sourceTree = "<group>";
@@ -125,6 +183,61 @@
 				787AC69B2B0F71E8001A1CBC /* LeggoQuizUITestsLaunchTests.swift */,
 			);
 			path = LeggoQuizUITests;
+			sourceTree = "<group>";
+		};
+		787AC6A82B0F7286001A1CBC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				787AC6A92B0F729F001A1CBC /* PrimaryButton.swift */,
+				787AC6B02B0F768B001A1CBC /* ProgressBar.swift */,
+				787AC6B52B0F7A15001A1CBC /* AnswerRow.swift */,
+				787AC6C82B100491001A1CBC /* MascotLevel.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		787AC6AB2B0F747F001A1CBC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				787AC6802B0F71E6001A1CBC /* ContentView.swift */,
+				787AC6AE2B0F75F3001A1CBC /* QuestionView.swift */,
+				787AC6B72B0F7CDC001A1CBC /* TriviaView.swift */,
+				787AC6C62B0FFF7B001A1CBC /* TestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		787AC6B22B0F79B5001A1CBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				787AC6B32B0F79C6001A1CBC /* Answer.swift */,
+				787AC6B92B0F7E05001A1CBC /* MascotQuiz.swift */,
+				787AC6BB2B0F843E001A1CBC /* TriviaManager.swift */,
+				787AC6C22B0FDEF4001A1CBC /* EventQuiz.swift */,
+				787AC6C42B0FE829001A1CBC /* QuizManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		787AC6BF2B0FDAF8001A1CBC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				787AC6BD2B0F8B83001A1CBC /* mascotQEng.json */,
+				787AC6C02B0FDB0E001A1CBC /* eventQEng.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		787AC6CA2B1057DC001A1CBC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */,
+				787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */,
+				787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */,
+				787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */,
+				787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +345,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				787AC6862B0F71E8001A1CBC /* Preview Assets.xcassets in Resources */,
+				787AC6D32B105818001A1CBC /* Rocgrotesk-light.otf in Resources */,
+				787AC6DC2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */,
+				787AC6BE2B0F8B83001A1CBC /* mascotQEng.json in Resources */,
+				787AC6D62B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */,
+				787AC6D92B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */,
+				787AC6C12B0FDB0E001A1CBC /* eventQEng.json in Resources */,
 				787AC6832B0F71E8001A1CBC /* Assets.xcassets in Resources */,
+				787AC6E02B1058BF001A1CBC /* Info.plist in Resources */,
+				787AC6D02B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +361,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787AC6DA2B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */,
+				787AC6D72B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */,
+				787AC6D12B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */,
+				787AC6DD2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */,
+				787AC6D42B105818001A1CBC /* Rocgrotesk-light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +373,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787AC6DB2B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */,
+				787AC6D82B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */,
+				787AC6D22B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */,
+				787AC6DE2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */,
+				787AC6D52B105818001A1CBC /* Rocgrotesk-light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +388,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787AC6C92B100491001A1CBC /* MascotLevel.swift in Sources */,
+				787AC6C72B0FFF7B001A1CBC /* TestView.swift in Sources */,
+				787AC6AF2B0F75F3001A1CBC /* QuestionView.swift in Sources */,
+				787AC6C32B0FDEF4001A1CBC /* EventQuiz.swift in Sources */,
+				787AC6B82B0F7CDC001A1CBC /* TriviaView.swift in Sources */,
+				787AC6BA2B0F7E06001A1CBC /* MascotQuiz.swift in Sources */,
+				787AC6AA2B0F729F001A1CBC /* PrimaryButton.swift in Sources */,
+				787AC6BC2B0F843E001A1CBC /* TriviaManager.swift in Sources */,
+				787AC6B62B0F7A15001A1CBC /* AnswerRow.swift in Sources */,
 				787AC6812B0F71E6001A1CBC /* ContentView.swift in Sources */,
+				787AC6B42B0F79C6001A1CBC /* Answer.swift in Sources */,
+				787AC6C52B0FE829001A1CBC /* QuizManager.swift in Sources */,
 				787AC67F2B0F71E6001A1CBC /* LeggoQuizApp.swift in Sources */,
+				787AC6B12B0F768B001A1CBC /* ProgressBar.swift in Sources */,
+				787AC6AD2B0F7572001A1CBC /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +569,7 @@
 				DEVELOPMENT_TEAM = R5TPL49XXS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeggoQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +599,7 @@
 				DEVELOPMENT_TEAM = R5TPL49XXS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeggoQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Rocgrotesk-extralight.otf</string>
+		<string>Rocgrotesk-light.otf</string>
+		<string>Rocgrotesk-medium.otf</string>
+		<string>Rocgrotesk-regular.otf</string>
+		<string>Rocgrotesk-thin.otf</string>
+	</array>
+</dict>
+</plist>

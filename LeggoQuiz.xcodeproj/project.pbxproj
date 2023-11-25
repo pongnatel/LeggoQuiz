@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7816218E2B12578B000EB867 /* mascotQVie.json in Resources */ = {isa = PBXBuildFile; fileRef = 7816218D2B12578B000EB867 /* mascotQVie.json */; };
 		787AC67F2B0F71E6001A1CBC /* LeggoQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC67E2B0F71E6001A1CBC /* LeggoQuizApp.swift */; };
 		787AC6812B0F71E6001A1CBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6802B0F71E6001A1CBC /* ContentView.swift */; };
 		787AC6832B0F71E8001A1CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6822B0F71E8001A1CBC /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		787AC6FD2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */; };
 		787AC6FE2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */; };
 		787AC7002B11843B001A1CBC /* Explanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6FF2B11843B001A1CBC /* Explanation.swift */; };
+		7881AB552B1259A8006F3E28 /* eventQVie.json in Resources */ = {isa = PBXBuildFile; fileRef = 7881AB542B1259A8006F3E28 /* eventQVie.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7816218D2B12578B000EB867 /* mascotQVie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mascotQVie.json; sourceTree = "<group>"; };
 		787AC67B2B0F71E6001A1CBC /* LeggoQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeggoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787AC67E2B0F71E6001A1CBC /* LeggoQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeggoQuizApp.swift; sourceTree = "<group>"; };
 		787AC6802B0F71E6001A1CBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +96,7 @@
 		787AC6F12B1061D4001A1CBC /* Saira-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-ExtraBold.ttf"; sourceTree = "<group>"; };
 		787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-SemiBold.ttf"; sourceTree = "<group>"; };
 		787AC6FF2B11843B001A1CBC /* Explanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explanation.swift; sourceTree = "<group>"; };
+		7881AB542B1259A8006F3E28 /* eventQVie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = eventQVie.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +226,8 @@
 			children = (
 				787AC6BD2B0F8B83001A1CBC /* mascotQEng.json */,
 				787AC6C02B0FDB0E001A1CBC /* eventQEng.json */,
+				7816218D2B12578B000EB867 /* mascotQVie.json */,
+				7881AB542B1259A8006F3E28 /* eventQVie.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -344,11 +350,13 @@
 				787AC6862B0F71E8001A1CBC /* Preview Assets.xcassets in Resources */,
 				787AC6BE2B0F8B83001A1CBC /* mascotQEng.json in Resources */,
 				787AC6FC2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */,
+				7816218E2B12578B000EB867 /* mascotQVie.json in Resources */,
 				787AC6C12B0FDB0E001A1CBC /* eventQEng.json in Resources */,
 				787AC6F32B1061D4001A1CBC /* Saira-Regular.ttf in Resources */,
 				787AC6F92B1061D4001A1CBC /* Saira-ExtraBold.ttf in Resources */,
 				787AC6F62B1061D4001A1CBC /* Saira-Light.ttf in Resources */,
 				787AC6832B0F71E8001A1CBC /* Assets.xcassets in Resources */,
+				7881AB552B1259A8006F3E28 /* eventQVie.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

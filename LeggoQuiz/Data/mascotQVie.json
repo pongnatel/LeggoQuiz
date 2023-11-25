@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "category": "Techno",
+        "question": "Việc lưu trữ dữ liệu trực tuyến (như OneDrive, Adobe Creative Cloud…) có tác động thế nào đến lượng CO2?",
+        "choices": ["Giảm lượng CO2 vì thay thế cho việc sản xuất các thiết bị lưu trữ vật lí", "Năng lượng lớn được dùng cho các trung tâm dữ liệu và gây thải lượng CO2 cao", "Cả hai đáp án", "Không cái nào đúng"],
+        "correctAnswer": 1,
+        "hasExplanation": true,
+        "explanation": "Việc lưu trữ dữ liệu trực tuyến đòi hỏi năng lượng lớn để duy trì hoạt động liên tục của các trung tâm dữ liệu. Điều này góp phần tăng lượng khí CO2 thải ra môi trường, do cần sử dụng năng lượng cho máy chủ và hệ thống hoạt động của chúng."
+    },
+    {
+        "id": 2,
+        "category": "Techno",
+        "question": "Are electric vehicles a `comprehensive solution` for reducing CO2 emissions from transportation?",
+        "choices":["No, because the production process of electric vehicles is not yet optimized", "Yes, because driving electric vehicles does not emit CO2", "Both answers"],
+        "correctAnswer": 0,
+        "hasExplanation": true,
+        "explanation": "The environmental impact of electric vehicles must be assessed across both production and usage stages. While no CO2 is emitted during operation, the production and recycling of batteries, along with the manufacturing of other components, still contribute to global CO2 emissions."
+    },
+    {
+        "id": 3,
+        "category": "Techno",
+        "question": "What can we do to minimize the negative impact of technology on the environment?",
+        "choices":["Delete junk mail", "Use power saving mode", "Turn off when not using", "Can we do it all at once?"],
+        "correctAnswer": 3,
+        "hasExplanation": true,
+        "explanation": "These measures help reduce energy consumption and also reduce the amount of greenhouse gases emitted from energy production. Deleting junk mail can also help reduce the load on network and server infrastructure."
+    },
+    {
+        "id": 4,
+        "category": "Eco",
+        "question": "What is the correct order of the 3R model for environmentally sustainable action?",
+        "choices":["Reduce – Reuse – Recycle", "Reduce – Recycle - Reuse", "Reuse - Reduce - Recycle", "Reuse - Recycle – Reduce"],
+        "correctAnswer": 0,
+        "hasExplanation": true,
+        "explanation": "3R model for sustainable action for the environment:<br>1. Reduce: Reduce unnecessary use of resources and products.<br>2. Reuse: Reuse products to extend their lifespan and reduce waste.<br>3. Recycle: Convert waste into new materials to reduce pressure on natural resources."
+    },
+    {
+        "id": 5,
+        "category": "Eco",
+        "question": "Why does red meat consumption contribute to Carbon Dioxide (CO2) emissions? ",
+        "choices":["Red meat contains a lot of fat, which increases CO2 emission during digestion", "The production and processing of red meat produces large amounts of greenhouse gases", "The production and processing of red meat produces large amounts of greenhouse gases", "Red meat contributes to the decline of forests, reducing their ability to absorb CO2 from the air"],
+        "correctAnswer": 1,
+        "hasExplanation": true,
+        "explanation": "Livestock farming: Raising animals for red meat production requires a significant amount of feed, water, and land. The process of producing feed for animals and managing waste from livestock farming consumes substantial energy and resources, contributing to CO2 emissions from agricultural activities.<br>Processing: The processing of red meat and its transportation to retail points also requires energy and generates emissions during the production and transportation of food."
+    },
+    {
+        "id": 6,
+        "category": "Eco",
+        "question": "What contributes to reducing a person's Carbon Dioxide (CO2) footprint?",
+        "choices":["Eating pork instead of beef", "Use public transportation instead of driving personally", "Use plastic bags every time you shop", "All three, right?"],
+        "correctAnswer": 1,
+        "hasExplanation": true,
+        "explanation": "Red meat (pork, beef, lamb, etc.) requires a lot of energy during production, contributing to more CO2 emissions. Plastic bags also cause many environmental problems and emissions during the production process."
+    },
+    {
+        "id": 7,
+        "category": "Emo",
+        "question": "Which of the following can help maintain running/walking motivation?",
+        "choices":["Combining running/walking with other social activities", "Changing running/walking locations", "Listening to music/podcasts", "All of the above"],
+        "correctAnswer": 3,
+        "hasExplanation": false,
+        "explanation": ""
+    },
+    {
+        "id": 8,
+        "category": "Emo",
+        "question": "Endorphin, a substance produced during running/walking, can reduce pain and enhance the feeling of happiness",
+        "choices":["True", "False"],
+        "correctAnswer": 0,
+        "hasExplanation": false,
+        "explanation": ""
+    },
+    {
+        "id": 9,
+        "category": "Haco",
+        "question": "What steps should be taken to have an effective jogging session?",
+        "choices":["Wearing the proper shoes and use appropriate running gear", " Warming up before running and cool down after running", "Maintaining a steady speed", "All the answers above"],
+        "correctAnswer": 3,
+        "hasExplanation": false,
+        "explanation": ""
+    }
+]

@@ -56,7 +56,7 @@ class QuizManager: ObservableObject{
     }
     
     init() {
-        self.mascotQ = decodeJsonFromJsonFile(jsonFileName: "mascotQEng.json", elementType: MascotQuiz.self)
+        self.mascotQ = decodeJsonFromJsonFile(jsonFileName: "mascotQVie.json", elementType: MascotQuiz.self)
         self.eventQ = decodeJsonFromJsonFile(jsonFileName: "eventQEng.json", elementType: EventQuiz.self)
     }
     
@@ -70,7 +70,8 @@ class QuizManager: ObservableObject{
         self.eventQIndex = mascot
         switch mascot{
         case 0:
-            mascotQIndex = Int.random(in: 0...2)            
+//            mascotQIndex = Int.random(in: 0...2)       
+            mascotQIndex = 0
         case 1:
             mascotQIndex = Int.random(in: 3...5)
             

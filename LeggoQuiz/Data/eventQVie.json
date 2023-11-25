@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "question": "To participate in the LEGGO running/walking event, you need to ensure yourself:",
+        "choices": ["18 years old and above", "17 years old and above", "16 years old and above", "Any age"],
+        "correctAnswer": 0,
+    },
+    {
+        "id": 2,
+        "question": "When registering for the LEGGO event as a group, what is the minimum number of males and females required?",
+        "choices": ["2 males", "2 females", "1 male and 1 female", "Not mandatory, the entire team can be all male or all female"],
+        "correctAnswer": 2,
+    },
+    {
+        "id": 3,
+        "question": "When participating in the LEGGO event, can I run on a treadmill?",
+        "choices": ["Yessy", "No no no"],
+        "correctAnswer": 1,
+    },
+    {
+        "id": 4,
+        "question": "What week will the run take place?",
+        "choices": ["Week 5", "Week 6", "Week 7", "Week 5 and week 6"],
+        "correctAnswer": 1,
+    }
+]

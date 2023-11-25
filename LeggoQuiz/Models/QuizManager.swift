@@ -28,7 +28,11 @@ class QuizManager: ObservableObject{
     @Published private(set) var answerSelected = false
     @Published private(set) var reachedEnd = false
     
+    // Variable to display explanation
+    var isExplanationdisplayed = false
+    
     // Variables for score and progress
+    var maxScore = 8
     @Published private(set) var score = 0
     
     func decodeJsonFromJsonFile<T: Decodable>(jsonFileName: String, elementType: T.Type) -> [T] {
@@ -95,12 +99,14 @@ class QuizManager: ObservableObject{
             answerChoices = currentQuiz.formattedChoices
             explanation = currentQuiz.formattedExplanation
             hasExplanation = currentQuiz.hasExplanation
+            isExplanationdisplayed = false
         }
         else{
             let currentQuiz = eventQ[eventQIndex]
             question = currentQuiz.formattedQuestion
             answerChoices = currentQuiz.formattedChoices
             hasExplanation = false
+            isExplanationdisplayed = false
             explanation = ""
         }
     }

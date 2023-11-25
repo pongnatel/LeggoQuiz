@@ -41,6 +41,7 @@
 		787AC6FC2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */; };
 		787AC6FD2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */; };
 		787AC6FE2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */; };
+		787AC7002B11843B001A1CBC /* Explanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6FF2B11843B001A1CBC /* Explanation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		787AC6F02B1061D4001A1CBC /* Saira-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-Light.ttf"; sourceTree = "<group>"; };
 		787AC6F12B1061D4001A1CBC /* Saira-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-ExtraBold.ttf"; sourceTree = "<group>"; };
 		787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-SemiBold.ttf"; sourceTree = "<group>"; };
+		787AC6FF2B11843B001A1CBC /* Explanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explanation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				787AC6B02B0F768B001A1CBC /* ProgressBar.swift */,
 				787AC6B52B0F7A15001A1CBC /* AnswerRow.swift */,
 				787AC6C82B100491001A1CBC /* MascotLevel.swift */,
+				787AC6FF2B11843B001A1CBC /* Explanation.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				787AC67F2B0F71E6001A1CBC /* LeggoQuizApp.swift in Sources */,
 				787AC6B12B0F768B001A1CBC /* ProgressBar.swift in Sources */,
 				787AC6AD2B0F7572001A1CBC /* Extensions.swift in Sources */,
+				787AC7002B11843B001A1CBC /* Explanation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,11 +564,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LeggoQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Leggo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -590,11 +596,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LeggoQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Leggo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

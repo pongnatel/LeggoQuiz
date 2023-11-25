@@ -10,8 +10,6 @@ import SwiftUI
 struct QuestionView: View {
     @EnvironmentObject var quizManager : QuizManager
     @State private var isNextButtonDisabled = true
-    @State private var isExplanationdisplayed = false
-    
     var accentColor: Color {
         
         switch quizManager.mascotIndex{
@@ -39,7 +37,7 @@ struct QuestionView: View {
                             .padding(.horizontal, 30)
                         
                         ForEach(quizManager.answerChoices, id: \.id) { answer in
-                            if isExplanationdisplayed{
+                            if quizManager.isExplanationdisplayed{
                                 if answer.isCorrect{
                                     AnswerRow(answer: answer).environmentObject(quizManager)
                                 }
@@ -47,6 +45,10 @@ struct QuestionView: View {
                             else{
                                 AnswerRow(answer: answer).environmentObject(quizManager)
                             }
+                        }
+                        
+                        if quizManager.isExplanationdisplayed{
+                            Explanation(text: quizManager.explanation, mascot: quizManager.mascotIndex)
                         }
                     }
                     
@@ -71,26 +73,21 @@ struct QuestionView: View {
                 .position(x: geometry.frame(in: .local).midX, y: geometry.frame(in: .local).midY)
             }
         }
-        .onChange(of: quizManager.answerSelected) {
-            if quizManager.answerSelected{
+        .onChange(of: quizManager.answerSelected) { newAnswerSelected in
+            if newAnswerSelected {
                 waitAndShowText()
             }
-            
         }
     }
     
     func waitAndShowText() {
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            // After a second, set shouldShowRow property for AnswerRow views based on your logic
-//            for index in quizManager.answerChoices.indices {
-//                quizManager.answerChoices[index].shouldShowRow = // Your condition here
-//            }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             print("Hello")
             // Re-enable the button
             isNextButtonDisabled = false
             if quizManager.hasExplanation{
-                isExplanationdisplayed = true
+                quizManager.isExplanationdisplayed = true
             }
         }
     }

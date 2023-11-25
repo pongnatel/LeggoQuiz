@@ -12,7 +12,7 @@
         "id": 2,
         "category": "Techno",
         "question": "Are electric vehicles a `comprehensive solution` for reducing CO2 emissions from transportation?",
-        "choices":["No, because the production process of electric vehicles is not yet optimized", "Yes, because driving electric vehicles does not emit CO2", "Both answers", "Both answers a and b"],
+        "choices":["No, because the production process of electric vehicles is not yet optimized", "Yes, because driving electric vehicles does not emit CO2", "Both answers"],
         "correctAnswer": 0,
         "hasExplanation": true,
         "explanation": "The environmental impact of electric vehicles must be assessed across both production and usage stages. While no CO2 is emitted during operation, the production and recycling of batteries, along with the manufacturing of other components, still contribute to global CO2 emissions."

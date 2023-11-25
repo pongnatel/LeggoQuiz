@@ -23,5 +23,10 @@ extension Text{
         self.font(Font.custom("Saira-Regular", size: 25))
             .foregroundColor(Color.white)
     }
+    
+    func Explanation() -> some View{
+        self.font(Font.custom("Saira-Regular", size: 25))
+            .foregroundColor(Color.black)
+    }
 }
 

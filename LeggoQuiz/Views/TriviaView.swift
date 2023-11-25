@@ -22,7 +22,7 @@ struct TriviaView: View {
                         .font(.custom("Rocgrotesk-regular", size: 30))
                         
                     
-                    Text("You scored \(quizManager.score) out of 2")
+                    Text("You scored \(quizManager.score) out of \(quizManager.maxScore)")
                         
                     
                     //                 Uncomment the button and provide the appropriate action
@@ -79,7 +79,17 @@ struct TriviaView: View {
                         } label: {
                             MascotLevel(mascot: "hacco")
                         }
+//                        .overlay(
+//                            LinearGradient(
+//                                gradient: Gradient(colors: [Color.black.opacity(0.6), Color.black.opacity(0.2)]),
+//                                startPoint: .leading,
+//                                endPoint: .trailing
+//                            )
+////                            .cornerRadius(10)
+//                            .edgesIgnoringSafeArea(.all)
+//                        )
                     }
+                    
                 }
                 .background(.blue)
             }

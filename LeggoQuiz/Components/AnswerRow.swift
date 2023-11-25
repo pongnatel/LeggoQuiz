@@ -8,45 +8,44 @@
 import SwiftUI
 
 struct AnswerRow: View {
-    @EnvironmentObject var quizManager : QuizManager
+    @EnvironmentObject var quizManager: QuizManager
     var answer: Answer
     @State private var isSelected = false
-    
+    @State private var isHovered = false
+
     var green = Color(.green)
     var red = Color(.red)
-    
+    var gray = Color("dgray")
+
     var body: some View {
-        HStack(spacing: 20){
-            Image(systemName: "circle.fill")
-                .font(.caption)
-            
+        HStack(spacing: 20) {
             Text(answer.text)
-                .bold()
-            
-            if isSelected{
-                Spacer()
-                
-                Image(systemName: answer.isCorrect ? "checkmark.circle.fill" : "x.circle.fill")
-                    .foregroundColor(answer.isCorrect ? green : red)
-            }
+                .Choice()
         }
         .padding()
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .foregroundColor(quizManager.answerSelected ? (isSelected ? Color("AccentColor") : .gray) : Color("AccentColor"))
-        .background(.white)
+        .frame(maxWidth: .infinity, alignment: .center)
+        .background(
+            quizManager.answerSelected
+                ? (answer.isCorrect ? green : (isSelected ? red : gray))
+                : (isHovered ? Color("AccentColor").opacity(0.5) : gray)
+        )
         .cornerRadius(10)
-        .shadow(color: isSelected ? (answer.isCorrect ? green : red) : .gray, radius:5, x:0.5, y:0.5)
+        .shadow(color: .black, radius: 0.5, y: 5)
         .onTapGesture {
-            if !quizManager.answerSelected{
+            if !quizManager.answerSelected {
                 isSelected = true
                 quizManager.selectAnswer(answer: answer)
             }
-            
+        }
+        .onHover { hovering in
+            withAnimation {
+                isHovered = hovering
+            }
         }
     }
 }
 
 #Preview {
-    AnswerRow(answer: Answer(text:"Single", isCorrect: false))
+    AnswerRow(answer: Answer(text: "Single", isCorrect: false))
         .environmentObject(QuizManager())
 }

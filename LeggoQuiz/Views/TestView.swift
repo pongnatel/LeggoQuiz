@@ -9,12 +9,18 @@ import SwiftUI
 
 struct TestView: View {
     var body: some View {
-        VStack(spacing: 0){
-            Text("Hello1")
-                .background(.green)
-            Text("Hello2")
-                .background(.red)
+        GeometryReader { geometry in
+            VStack(spacing: 0){
+                Text("Hello, **SwiftLee** readers!")
+                    .background(.green)
+                Text("Hello2")
+                    .background(.red)
+            }
+            .frame(maxWidth: geometry.size.width * 0.7, maxHeight: geometry.size.width * 0.8)
+            .background(Color(.red))
+            .position(x: geometry.size.width/2)
         }
+        
     }
 }
 

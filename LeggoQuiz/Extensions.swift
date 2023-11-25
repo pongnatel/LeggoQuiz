@@ -9,9 +9,19 @@ import Foundation
 import SwiftUI
 
 extension Text{
-    func lilacTitle() -> some View{
-        self.font(.largeTitle)
-            .fontWeight(.heavy)
-            .foregroundColor(Color("AccentColor"))
+    func LargeTitle() -> some View{
+        self.font(Font.custom("Saira-ExtraBold", size: 60))
+            .foregroundColor(Color.black)
+    }
+    
+    func Title() -> some View{
+        self.font(Font.custom("Saira-SemiBold", size: 30))
+//            .foregroundColor(Color.black)
+    }
+    
+    func Choice() -> some View{
+        self.font(Font.custom("Saira-Regular", size: 25))
+            .foregroundColor(Color.white)
     }
 }
+

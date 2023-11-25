@@ -14,10 +14,11 @@ struct ContentView: View {
             VStack(spacing: 40) {
                 VStack(spacing: 20){
                     Text("Vuot Chuong Ngai Vat")
-                        .lilacTitle()
+                        .LargeTitle()
                     
                     Text("Are you ready?")
-                        .foregroundColor(Color("AccentColor"))
+                        .Title()
+                        
                     
                     NavigationLink{
                         TriviaView()

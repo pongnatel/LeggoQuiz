@@ -4,11 +4,10 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Rocgrotesk-extralight.otf</string>
-		<string>Rocgrotesk-light.otf</string>
-		<string>Rocgrotesk-medium.otf</string>
-		<string>Rocgrotesk-regular.otf</string>
-		<string>Rocgrotesk-thin.otf</string>
+		<string>Saira-ExtraBold.ttf</string>
+		<string>Saira-Light.ttf</string>
+		<string>Saira-Regular.ttf</string>
+		<string>Saira-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

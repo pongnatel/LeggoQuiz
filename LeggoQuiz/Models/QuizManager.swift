@@ -19,6 +19,7 @@ class QuizManager: ObservableObject{
     @Published private(set) var question: AttributedString = ""
     @Published private(set) var answerChoices: [Answer] = []
     @Published private(set) var explanation: AttributedString = ""
+    @Published private(set) var hasExplanation: Bool = false
     
     // Variables to determine mascotQ or eventQ
     @Published private(set) var isEventQ = false
@@ -29,7 +30,6 @@ class QuizManager: ObservableObject{
     
     // Variables for score and progress
     @Published private(set) var score = 0
-    
     
     func decodeJsonFromJsonFile<T: Decodable>(jsonFileName: String, elementType: T.Type) -> [T] {
         if let file = Bundle.main.url(forResource: jsonFileName, withExtension: nil) {
@@ -66,8 +66,7 @@ class QuizManager: ObservableObject{
         self.eventQIndex = mascot
         switch mascot{
         case 0:
-            mascotQIndex = Int.random(in: 0...2)
-            
+            mascotQIndex = Int.random(in: 0...2)            
         case 1:
             mascotQIndex = Int.random(in: 3...5)
             
@@ -95,11 +94,13 @@ class QuizManager: ObservableObject{
             question = currentQuiz.formattedQuestion
             answerChoices = currentQuiz.formattedChoices
             explanation = currentQuiz.formattedExplanation
+            hasExplanation = currentQuiz.hasExplanation
         }
         else{
             let currentQuiz = eventQ[eventQIndex]
             question = currentQuiz.formattedQuestion
             answerChoices = currentQuiz.formattedChoices
+            hasExplanation = false
             explanation = ""
         }
     }

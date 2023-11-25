@@ -13,9 +13,9 @@
     },
     {
         "id": 3,
-        "question": "To participate in the LEGGO running/walking event, you need to ensure yourself:",
-        "choices": ["18 years old and above", "17 years old and above", "16 years old and above", "Any age"],
-        "correctAnswer": 0,
+        "question": "When participating in the LEGGO event, can I run on a treadmill?",
+        "choices": ["Yessy", "No no no"],
+        "correctAnswer": 1,
     },
     {
         "id": 4,

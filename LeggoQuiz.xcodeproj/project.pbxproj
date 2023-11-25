@@ -29,22 +29,18 @@
 		787AC6C52B0FE829001A1CBC /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6C42B0FE829001A1CBC /* QuizManager.swift */; };
 		787AC6C72B0FFF7B001A1CBC /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6C62B0FFF7B001A1CBC /* TestView.swift */; };
 		787AC6C92B100491001A1CBC /* MascotLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6C82B100491001A1CBC /* MascotLevel.swift */; };
-		787AC6D02B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */; };
-		787AC6D12B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */; };
-		787AC6D22B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */; };
-		787AC6D32B105818001A1CBC /* Rocgrotesk-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */; };
-		787AC6D42B105818001A1CBC /* Rocgrotesk-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */; };
-		787AC6D52B105818001A1CBC /* Rocgrotesk-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */; };
-		787AC6D62B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */; };
-		787AC6D72B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */; };
-		787AC6D82B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */; };
-		787AC6D92B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */; };
-		787AC6DA2B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */; };
-		787AC6DB2B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */; };
-		787AC6DC2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */; };
-		787AC6DD2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */; };
-		787AC6DE2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */; };
-		787AC6E02B1058BF001A1CBC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6DF2B105865001A1CBC /* Info.plist */; };
+		787AC6F32B1061D4001A1CBC /* Saira-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6EF2B1061D4001A1CBC /* Saira-Regular.ttf */; };
+		787AC6F42B1061D4001A1CBC /* Saira-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6EF2B1061D4001A1CBC /* Saira-Regular.ttf */; };
+		787AC6F52B1061D4001A1CBC /* Saira-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6EF2B1061D4001A1CBC /* Saira-Regular.ttf */; };
+		787AC6F62B1061D4001A1CBC /* Saira-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F02B1061D4001A1CBC /* Saira-Light.ttf */; };
+		787AC6F72B1061D4001A1CBC /* Saira-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F02B1061D4001A1CBC /* Saira-Light.ttf */; };
+		787AC6F82B1061D4001A1CBC /* Saira-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F02B1061D4001A1CBC /* Saira-Light.ttf */; };
+		787AC6F92B1061D4001A1CBC /* Saira-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F12B1061D4001A1CBC /* Saira-ExtraBold.ttf */; };
+		787AC6FA2B1061D4001A1CBC /* Saira-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F12B1061D4001A1CBC /* Saira-ExtraBold.ttf */; };
+		787AC6FB2B1061D4001A1CBC /* Saira-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F12B1061D4001A1CBC /* Saira-ExtraBold.ttf */; };
+		787AC6FC2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */; };
+		787AC6FD2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */; };
+		787AC6FE2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,12 +86,11 @@
 		787AC6C42B0FE829001A1CBC /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		787AC6C62B0FFF7B001A1CBC /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		787AC6C82B100491001A1CBC /* MascotLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotLevel.swift; sourceTree = "<group>"; };
-		787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-medium.otf"; sourceTree = "<group>"; };
-		787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-light.otf"; sourceTree = "<group>"; };
-		787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-regular.otf"; sourceTree = "<group>"; };
-		787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-extralight.otf"; sourceTree = "<group>"; };
-		787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rocgrotesk-thin.otf"; sourceTree = "<group>"; };
 		787AC6DF2B105865001A1CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		787AC6EF2B1061D4001A1CBC /* Saira-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-Regular.ttf"; sourceTree = "<group>"; };
+		787AC6F02B1061D4001A1CBC /* Saira-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-Light.ttf"; sourceTree = "<group>"; };
+		787AC6F12B1061D4001A1CBC /* Saira-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-ExtraBold.ttf"; sourceTree = "<group>"; };
+		787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,11 +226,10 @@
 		787AC6CA2B1057DC001A1CBC /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				787AC6CE2B105817001A1CBC /* Rocgrotesk-extralight.otf */,
-				787AC6CC2B105817001A1CBC /* Rocgrotesk-light.otf */,
-				787AC6CB2B105817001A1CBC /* Rocgrotesk-medium.otf */,
-				787AC6CD2B105817001A1CBC /* Rocgrotesk-regular.otf */,
-				787AC6CF2B105817001A1CBC /* Rocgrotesk-thin.otf */,
+				787AC6F12B1061D4001A1CBC /* Saira-ExtraBold.ttf */,
+				787AC6F02B1061D4001A1CBC /* Saira-Light.ttf */,
+				787AC6EF2B1061D4001A1CBC /* Saira-Regular.ttf */,
+				787AC6F22B1061D4001A1CBC /* Saira-SemiBold.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -345,15 +339,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				787AC6862B0F71E8001A1CBC /* Preview Assets.xcassets in Resources */,
-				787AC6D32B105818001A1CBC /* Rocgrotesk-light.otf in Resources */,
-				787AC6DC2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */,
 				787AC6BE2B0F8B83001A1CBC /* mascotQEng.json in Resources */,
-				787AC6D62B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */,
-				787AC6D92B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */,
+				787AC6FC2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */,
 				787AC6C12B0FDB0E001A1CBC /* eventQEng.json in Resources */,
+				787AC6F32B1061D4001A1CBC /* Saira-Regular.ttf in Resources */,
+				787AC6F92B1061D4001A1CBC /* Saira-ExtraBold.ttf in Resources */,
+				787AC6F62B1061D4001A1CBC /* Saira-Light.ttf in Resources */,
 				787AC6832B0F71E8001A1CBC /* Assets.xcassets in Resources */,
-				787AC6E02B1058BF001A1CBC /* Info.plist in Resources */,
-				787AC6D02B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,11 +353,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787AC6DA2B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */,
-				787AC6D72B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */,
-				787AC6D12B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */,
-				787AC6DD2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */,
-				787AC6D42B105818001A1CBC /* Rocgrotesk-light.otf in Resources */,
+				787AC6F72B1061D4001A1CBC /* Saira-Light.ttf in Resources */,
+				787AC6FA2B1061D4001A1CBC /* Saira-ExtraBold.ttf in Resources */,
+				787AC6FD2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */,
+				787AC6F42B1061D4001A1CBC /* Saira-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,11 +364,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787AC6DB2B105818001A1CBC /* Rocgrotesk-extralight.otf in Resources */,
-				787AC6D82B105818001A1CBC /* Rocgrotesk-regular.otf in Resources */,
-				787AC6D22B105818001A1CBC /* Rocgrotesk-medium.otf in Resources */,
-				787AC6DE2B105818001A1CBC /* Rocgrotesk-thin.otf in Resources */,
-				787AC6D52B105818001A1CBC /* Rocgrotesk-light.otf in Resources */,
+				787AC6F82B1061D4001A1CBC /* Saira-Light.ttf in Resources */,
+				787AC6FB2B1061D4001A1CBC /* Saira-ExtraBold.ttf in Resources */,
+				787AC6FE2B1061D4001A1CBC /* Saira-SemiBold.ttf in Resources */,
+				787AC6F52B1061D4001A1CBC /* Saira-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

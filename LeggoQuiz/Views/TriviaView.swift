@@ -16,9 +16,10 @@ struct TriviaView: View {
             if quizManager.reachedEnd {
                 VStack(spacing: 20) {
                     Text("Trivia Game")
-                        .lilacTitle()
+                        .LargeTitle()
                     
                     Text("Congratulations")
+                        .font(.custom("Rocgrotesk-regular", size: 30))
                         
                     
                     Text("You scored \(quizManager.score) out of 2")

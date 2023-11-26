@@ -9,29 +9,50 @@ import SwiftUI
 
 struct TriviaView: View {
     @EnvironmentObject var quizManager : QuizManager
+    @Environment(\.presentationMode) var presentationMode
     @State private var navigateToQuestionView = false
     
+    var language: String {
+        // set language
+        return quizManager.lang ? "vie" : "eng"
+    }
     var body: some View {
         NavigationView {
             if quizManager.reachedEnd {
+//                if // done 4 cau
+//                    // then show finish -> return main menu button
                 VStack(spacing: 20) {
-                    Text("Trivia Game")
+                    Text(language == "vie" ? "VƯỢT CHƯỚNG NGẠI VẬT" : "ECO RACE")
                         .LargeTitle()
                     
-                    Text("Congratulations")
+                    Text(language == "vie" ? "Chúc mừng" : "Congratulation")
                         .Title()
                     
-                    
-                    Text("You scored \(quizManager.score) out of \(quizManager.maxScore)")
-                        .Question()
-                    
-                    
-                    
-                    Button {
-                        quizManager.next()
-                    } label: {
-                        PrimaryButton(text: "Next")
+                    if language == "vie"{
+                        Text("Bạn đạt được \(quizManager.score) trên \(quizManager.maxScore)")
+                            .Question()
                     }
+                    else{
+                        Text("You scored \(quizManager.score) out of \(quizManager.maxScore)")
+                            .Question()
+                    }
+                    
+                    if quizManager.mascotIndex == 3{
+                        Button {
+                            presentationMode.wrappedValue.dismiss()
+                        } label: {
+                            PrimaryButton(text: language == "vie" ? "Chơi lại?" : "Reset game?", background: Color("red"))
+                        }
+                        .padding()
+                    }
+                    else{
+                        Button {
+                            quizManager.next()
+                        } label: {
+                            PrimaryButton(text: language == "vie" ? "Tiếp tục" : "Continue")
+                        }
+                    }
+                    
                     
                     
                 }

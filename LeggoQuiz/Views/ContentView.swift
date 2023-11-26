@@ -46,7 +46,7 @@ struct ContentView: View {
                         .Title()
                     
                     NavigationLink(destination: TriviaView().environmentObject(quizManager)) {
-                        PrimaryButton(text: "Let's go")
+                        PrimaryButton(text: langIcon == "vie" ? "Nẩu ?" : "Let's go")
                     }
                     .onAppear {
                         quizManager.resetGame()

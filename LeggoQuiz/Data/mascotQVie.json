@@ -12,7 +12,7 @@
         "id": 2,
         "category": "Techno",
         "question": "Xe điện có phải là biện pháp toàn diện cho việc giảm khí thải CO2 từ phương tiện giao thông?",
-        "choices":["Không, vì quá trình sản xuất xe điện vẫn chưa được tối ưu", "Có, vì đi xe điện không thải ra khí CO2", "Cả hai đáp án trên"],
+        "choices":["Không, vì quá trình sản xuất xe điện vẫn chưa được tối ưu", "Có, vì đi xe điện không thải ra khí CO2", "Cả hai đáp án trên", "Không đáp áp nào đúng"],
         "correctAnswer": 0,
         "hasExplanation": true,
         "explanation": "Tác động của xe điện đối với môi trường cần xem xét cả giai đoạn sản xuất và sử dụng, vì mặc dù không thải CO2 trong quá trình vận hành, quá trình sản xuất và tái chế pin, cũng như sản xuất các thành phần khác, vẫn đóng góp vào khí thải CO2 toàn cầu."
@@ -33,7 +33,7 @@
         "choices":["Reduce – Reuse – Recycle", "Reduce – Recycle - Reuse", "Reuse - Reduce - Recycle", "Reuse - Recycle – Reduce"],
         "correctAnswer": 0,
         "hasExplanation": true,
-        "explanation": "Mô hình 3R cho hành động bền vững vì môi trường:1. Reduce (Giảm): Giảm sử dụng tài nguyên và sản phẩm không cần thiết.2. Reuse (Tái sử dụng): Tái sử dụng sản phẩm để kéo dài tuổi thọ và giảm lượng rác thải.3. Recycle (Tái chế): Chuyển đổi rác thải thành nguyên liệu mới để giảm áp lực lên tài nguyên tự nhiên."
+        "explanation": "Reduce (Giảm): Giảm sử dụng tài nguyên và sản phẩm không cần thiết. Reuse (Tái sử dụng): Tái sử dụng sản phẩm để kéo dài tuổi thọ và giảm lượng rác thải. Recycle (Tái chế): Chuyển đổi rác thải thành nguyên liệu mới để giảm áp lực lên tài nguyên tự nhiên."
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "choices":["Thịt đỏ chứa nhiều chất béo, làm tăng sự phát thải CO2 trong quá trình tiêu hóa", "Sự sản xuất và chế biến thịt đỏ tạo ra lượng lớn khí nhà kính", "Chăn nuôi và giết mổ gia súc thường sử dụng năng lượng lớn, đóng góp vào tăng lượng CO2", "Thịt đỏ góp phần vào sự suy giảm của rừng, giảm khả năng hấp thụ CO2 từ không khí"],
         "correctAnswer": 1,
         "hasExplanation": true,
-        "explanation": "Quá trình chăn nuôi: Chăn nuôi động vật để sản xuất thịt đỏ đòi hỏi một lượng lớn thức ăn, nước, và đất đai. Quá trình sản xuất thức ăn cho động vật và quản lý chất thải từ chăn nuôi đều tiêu thụ năng lượng và tài nguyên đáng kể, góp phần vào phát thải CO2 từ hoạt động nông nghiệp.Quá trình chế biến: Sự chế biến thịt đỏ và việc vận chuyển nó đến các điểm bán lẻ cũng đòi hỏi năng lượng và tạo ra khí thải trong quá trình sản xuất và vận chuyển thực phẩm."
+        "explanation": "Quá trình chăn nuôi: Chăn nuôi động vật để sản xuất thịt đỏ đòi hỏi một lượng lớn thức ăn, nước, và đất đai. Quá trình sản xuất thức ăn cho động vật và quản lý chất thải từ chăn nuôi đều tiêu thụ năng lượng và tài nguyên đáng kể, góp phần vào phát thải CO2 từ hoạt động nông nghiệp. Quá trình chế biến: Sự chế biến thịt đỏ và việc vận chuyển nó đến các điểm bán lẻ cũng đòi hỏi năng lượng và tạo ra khí thải trong quá trình sản xuất và vận chuyển thực phẩm."
     },
     {
         "id": 6,
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "category": "Emo",
-        "question": "Endorphin, một hoạt chất được sản xuất ra khi chạy/đi bộ, có khả năng giảm đau và tăng cảm giác hạnh phúc",
+        "question": "Endorphin là một hoạt chất được sản xuất ra khi chạy/đi bộ, có khả năng giảm đau và tăng cảm giác hạnh phúc",
         "choices":["Đúng", "Sai"],
         "correctAnswer": 0,
         "hasExplanation": false,
@@ -75,7 +75,7 @@
         "id": 9,
         "category": "Hacco",
         "question": "Để có một buổi chạy bộ hiệu quả, cần thực hiện những bước gì?",
-        "choices":["Đeo đúng giày và sử dụng đồ chạy phù hợp", "Làm nóng cơ thể (warm up) trước và giãn cơ (cool down) sau khi chạy", "Duy trì tốc độ ổn định", "Tất cả các đáp án trên"],
+        "choices":["Mang đúng giày và sử dụng đồ chạy phù hợp", "Làm nóng cơ thể (warm up) trước và giãn cơ (cool down) sau khi chạy", "Duy trì tốc độ ổn định", "Tất cả các đáp án trên"],
         "correctAnswer": 3,
         "hasExplanation": false,
         "explanation": ""

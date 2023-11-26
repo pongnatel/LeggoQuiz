@@ -96,7 +96,7 @@ struct TriviaView: View {
             
         }
         .navigationViewStyle(StackNavigationViewStyle())
-        .navigationBarBackButtonHidden(true)
+//        .navigationBarBackButtonHidden(true)
     }
 }
 

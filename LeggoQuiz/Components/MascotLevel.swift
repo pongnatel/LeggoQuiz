@@ -19,7 +19,7 @@ struct MascotLevel: View {
                 Image(mascot) // Replace with your image name
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: geometry.size.width / 2, height: geometry.size.height / 2) // Adjust image size as needed
+                    .frame(width: geometry.size.width / 1, height: geometry.size.height / 1) // Adjust image size as needed
                     .foregroundColor(.yellow) // Change color as needed
             }
         }

@@ -35,6 +35,13 @@ class QuizManager: ObservableObject{
     var maxScore = 8
     @Published private(set) var score = 0
     
+    // Variable for language setting
+    var lang = true{
+        didSet {
+            updateJsonFiles()
+        }
+    } // true for Viet, false for Eng
+    
     func decodeJsonFromJsonFile<T: Decodable>(jsonFileName: String, elementType: T.Type) -> [T] {
         if let file = Bundle.main.url(forResource: jsonFileName, withExtension: nil) {
             if let data = try? Data(contentsOf: file) {
@@ -55,9 +62,19 @@ class QuizManager: ObservableObject{
         return [] as [T]
     }
     
+    private func updateJsonFiles() {
+        var extend = lang ? "Vie.json" : "Eng.json"
+        mascotQ = decodeJsonFromJsonFile(jsonFileName: "mascotQ\(extend)", elementType: MascotQuiz.self)
+        eventQ = decodeJsonFromJsonFile(jsonFileName: "eventQ\(extend)", elementType: EventQuiz.self)
+    }
+    
     init() {
         self.mascotQ = decodeJsonFromJsonFile(jsonFileName: "mascotQVie.json", elementType: MascotQuiz.self)
-        self.eventQ = decodeJsonFromJsonFile(jsonFileName: "eventQEng.json", elementType: EventQuiz.self)
+        self.eventQ = decodeJsonFromJsonFile(jsonFileName: "eventQVie.json", elementType: EventQuiz.self)
+    }
+    
+    func changeLanguage(){
+        self.lang = !self.lang
     }
     
     func next(){

@@ -7,7 +7,7 @@
     },
     {
         "id": 2,
-        "question": "When registering for the LEGGO event as a group, what is the minimum number of males and females required?",
+        "question": "When group registering for LEGGO, what's the minimum required males and females?",
         "choices": ["2 males", "2 females", "1 male and 1 female", "Not mandatory, the entire team can be all male or all female"],
         "correctAnswer": 2,
     },

@@ -32,7 +32,7 @@ struct QuestionView: View {
                     VStack(alignment: .center, spacing: 20) {
                         
                         Text(quizManager.question)
-                            .Title()
+                            .Question()
                             .lineLimit(nil)
                             .padding(.horizontal, 30)
                         

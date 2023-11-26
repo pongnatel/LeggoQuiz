@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "question": "To participate in the LEGGO running/walking event, you need to ensure yourself:",
-        "choices": ["18 years old and above", "17 years old and above", "16 years old and above", "Any age"],
+        "question": "Để tham gia chạy/đi bộ trong sự kiện LEGGO, bạn cần phải đảm bảo bản thân:",
+        "choices": ["Từ 18 tuổi trở lên", "Từ 17 tuổi trở lên", "Từ 16 tuổi trở lên", "Bất kì độ tuổi nào"],
         "correctAnswer": 0,
     },
     {
         "id": 2,
-        "question": "When registering for the LEGGO event as a group, what is the minimum number of males and females required?",
-        "choices": ["2 males", "2 females", "1 male and 1 female", "Not mandatory, the entire team can be all male or all female"],
+        "question": "Khi đăng kí event LEGGO theo nhóm, cần ít nhất bao nhiêu nam và nữ?",
+        "choices": ["2 nam", "2 nữ", "1 nam and 1 nữ", "Không bắt buộc, cả team có thể full nam hoặc full nữ"],
         "correctAnswer": 2,
     },
     {
         "id": 3,
-        "question": "When participating in the LEGGO event, can I run on a treadmill?",
-        "choices": ["Yessy", "No no no"],
+        "question": "Khi tham gia event LEGGO, mình chạy trên máy chạy bộ được hong?",
+        "choices": ["Được nhe", "Không nhe"],
         "correctAnswer": 1,
     },
     {
         "id": 4,
-        "question": "What week will the run take place?",
+        "question": "Tuần chạy sẽ diễn ra vào week mấy nè?",
         "choices": ["Week 5", "Week 6", "Week 7", "Week 5 and week 6"],
         "correctAnswer": 1,
     }

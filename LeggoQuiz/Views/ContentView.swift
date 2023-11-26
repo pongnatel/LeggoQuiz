@@ -9,24 +9,52 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var quizManager = QuizManager()
+    @State var langIcon = "vie"
     var body: some View {
         NavigationView{
             VStack(spacing: 40) {
-                VStack(spacing: 20){
-                    Text("Vuot Chuong Ngai Vat")
+                HStack{
+                    Spacer()
+                    
+                    Button(action: {
+                        if langIcon == "vie"{
+                            langIcon = "eng"
+                        }
+                        else{
+                            langIcon = "vie"
+                        }
+                        quizManager.changeLanguage()
+                        print(langIcon)
+                    }, label: {
+                        Image(langIcon)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width:100)
+                    })
+                    
+                    
+                    
+                }
+                .padding(.top, 50)
+                .padding(.horizontal, 50)
+                
+                VStack(spacing: 50){
+                    Text(langIcon == "vie" ? "VƯỢT CHƯỚNG NGẠI VẬT" : "ECO RACE")
                         .LargeTitle()
                     
                     Text("Are you ready?")
                         .Title()
                         
-                    
                     NavigationLink{
                         TriviaView()
                             .environmentObject(quizManager)
                     } label: {
-                        PrimaryButton(text: "Next")
+                        PrimaryButton(text: "Let's go")
                     }
                 }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                
+                Spacer()
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)

@@ -19,27 +19,21 @@ struct TriviaView: View {
                         .LargeTitle()
                     
                     Text("Congratulations")
-                        .font(.custom("Rocgrotesk-regular", size: 30))
-                        
+                        .Title()
+                    
                     
                     Text("You scored \(quizManager.score) out of \(quizManager.maxScore)")
-                        
+                        .Question()
                     
-                    //                 Uncomment the button and provide the appropriate action
-//                    NavigationLink{
-//                        TriviaView()
-//                            .environmentObject(<#T##object: ObservableObject##ObservableObject#>)
-//                    } label: {
-//                        PrimaryButton(text: "Continue")
-//                    }
+                    
                     
                     Button {
                         quizManager.next()
                     } label: {
                         PrimaryButton(text: "Next")
                     }
-
-        
+                    
+                    
                 }
                 .foregroundColor(Color("AccentColor"))
                 .padding()
@@ -58,11 +52,31 @@ struct TriviaView: View {
                         } label: {
                             MascotLevel(mascot: "techno")
                         }
+                        .if(quizManager.currentMascot != 0) {
+                            $0.overlay(
+                                LinearGradient(
+                                    gradient: Gradient(colors: [Color.black.opacity(0.6), Color.black.opacity(0.2)]),
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                                .edgesIgnoringSafeArea(.all)
+                            )
+                        }
                         Button {
                             quizManager.updateMascot(mascot: 1)
                             navigateToQuestionView = true
                         } label: {
                             MascotLevel(mascot: "eco")
+                        }
+                        .if(quizManager.currentMascot != 1) {
+                            $0.overlay(
+                                LinearGradient(
+                                    gradient: Gradient(colors: [Color.black.opacity(0.6), Color.black.opacity(0.2)]),
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                                .edgesIgnoringSafeArea(.all)
+                            )
                         }
                     }
                     .background(.red)
@@ -73,21 +87,33 @@ struct TriviaView: View {
                         } label: {
                             MascotLevel(mascot: "emo")
                         }
+                        .if(quizManager.currentMascot != 2) {
+                            $0.overlay(
+                                LinearGradient(
+                                    gradient: Gradient(colors: [Color.black.opacity(0.6), Color.black.opacity(0.2)]),
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                                .edgesIgnoringSafeArea(.all)
+                            )
+                        }
+                        
                         Button {
                             quizManager.updateMascot(mascot: 3)
                             navigateToQuestionView = true
                         } label: {
                             MascotLevel(mascot: "hacco")
                         }
-//                        .overlay(
-//                            LinearGradient(
-//                                gradient: Gradient(colors: [Color.black.opacity(0.6), Color.black.opacity(0.2)]),
-//                                startPoint: .leading,
-//                                endPoint: .trailing
-//                            )
-////                            .cornerRadius(10)
-//                            .edgesIgnoringSafeArea(.all)
-//                        )
+                        .if(quizManager.currentMascot != 3) {
+                            $0.overlay(
+                                LinearGradient(
+                                    gradient: Gradient(colors: [Color.black.opacity(0.6), Color.black.opacity(0.2)]),
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                                .edgesIgnoringSafeArea(.all)
+                            )
+                        }
                     }
                     
                 }

@@ -28,6 +28,9 @@ class QuizManager: ObservableObject{
     @Published private(set) var answerSelected = false
     @Published private(set) var reachedEnd = false
     
+    // Variable to know what is the current mascot available
+    var currentMascot = 0
+    
     // Variable to display explanation
     var isExplanationdisplayed = false
     
@@ -41,6 +44,8 @@ class QuizManager: ObservableObject{
             updateJsonFiles()
         }
     } // true for Viet, false for Eng
+    
+    
     
     func decodeJsonFromJsonFile<T: Decodable>(jsonFileName: String, elementType: T.Type) -> [T] {
         if let file = Bundle.main.url(forResource: jsonFileName, withExtension: nil) {
@@ -63,7 +68,7 @@ class QuizManager: ObservableObject{
     }
     
     private func updateJsonFiles() {
-        var extend = lang ? "Vie.json" : "Eng.json"
+        let extend = lang ? "Vie.json" : "Eng.json"
         mascotQ = decodeJsonFromJsonFile(jsonFileName: "mascotQ\(extend)", elementType: MascotQuiz.self)
         eventQ = decodeJsonFromJsonFile(jsonFileName: "eventQ\(extend)", elementType: EventQuiz.self)
     }
@@ -80,6 +85,12 @@ class QuizManager: ObservableObject{
     func next(){
         self.reachedEnd = false
         self.isEventQ = false
+        if currentMascot <= 2 {
+            currentMascot += 1
+        }
+        else{
+            print(score >= 6 ? "Win" : "Lose")
+        }
     }
     
     func updateMascot(mascot: Int){
@@ -87,8 +98,8 @@ class QuizManager: ObservableObject{
         self.eventQIndex = mascot
         switch mascot{
         case 0:
-//            mascotQIndex = Int.random(in: 0...2)       
-            mascotQIndex = 0
+            mascotQIndex = Int.random(in: 0...2)       
+//            mascotQIndex = 0
         case 1:
             mascotQIndex = Int.random(in: 3...5)
             
@@ -152,4 +163,10 @@ class QuizManager: ObservableObject{
         }
     }
     
+    func resetGame(){
+        score = 0
+        self.next()
+        currentMascot = 0
+        print("Game reset")
+    }
 }

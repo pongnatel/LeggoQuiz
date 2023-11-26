@@ -42,14 +42,14 @@ struct ContentView: View {
                     Text(langIcon == "vie" ? "VƯỢT CHƯỚNG NGẠI VẬT" : "ECO RACE")
                         .LargeTitle()
                     
-                    Text("Are you ready?")
+                    Text(langIcon == "vie" ? "SẴN SÀNG CHƯA NÀO?" : "ARE YOU READY")
                         .Title()
-                        
-                    NavigationLink{
-                        TriviaView()
-                            .environmentObject(quizManager)
-                    } label: {
+                    
+                    NavigationLink(destination: TriviaView().environmentObject(quizManager)) {
                         PrimaryButton(text: "Let's go")
+                    }
+                    .onAppear {
+                        quizManager.resetGame()
                     }
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -61,7 +61,6 @@ struct ContentView: View {
             .background(.white)
         }
         .navigationViewStyle(StackNavigationViewStyle())
-        
     }
 }
 

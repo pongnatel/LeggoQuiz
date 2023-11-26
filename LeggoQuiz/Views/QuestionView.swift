@@ -10,6 +10,7 @@ import SwiftUI
 struct QuestionView: View {
     @EnvironmentObject var quizManager : QuizManager
     @State private var isNextButtonDisabled = true
+    @Environment(\.presentationMode) var presentationMode
     var accentColor: Color {
         
         switch quizManager.mascotIndex{
@@ -25,10 +26,11 @@ struct QuestionView: View {
     }
     
     var body: some View {
+        
         GeometryReader { geometry in
+            
             ZStack {
                 VStack(spacing: 30) {
-                    
                     VStack(alignment: .center, spacing: 20) {
                         
                         Text(quizManager.question)
@@ -56,13 +58,12 @@ struct QuestionView: View {
                         Button {
                             isNextButtonDisabled = true
                             quizManager.goToNextQuestion()
-//                            isExplanationdisplayed = false
                         } label: {
                             PrimaryButton(text: "Next", background: quizManager.answerSelected ? accentColor : .gray)
                         }
                         
                     }
-
+                    
                 }
                 .padding(.horizontal)
                 .frame(width: geometry.size.width * 0.7, height: geometry.size.width * 0.6)
@@ -72,6 +73,7 @@ struct QuestionView: View {
                 .navigationBarBackButtonHidden(true)
                 .position(x: geometry.frame(in: .local).midX, y: geometry.frame(in: .local).midY)
             }
+            
         }
         .onChange(of: quizManager.answerSelected) { newAnswerSelected in
             if newAnswerSelected {
@@ -81,7 +83,7 @@ struct QuestionView: View {
     }
     
     func waitAndShowText() {
-
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             print("Hello")
             // Re-enable the button
@@ -91,7 +93,7 @@ struct QuestionView: View {
             }
         }
     }
-        
+    
 }
 
 #Preview {
